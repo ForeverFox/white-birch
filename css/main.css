@@ -94,7 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Julius+Sans+One|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Julius+Sans+One|Open+Sans|Ranga');
    
 html {
 	box-sizing: border-box;
@@ -128,12 +128,30 @@ h3 {
 	font-size: 1.61em;
 }
 
+h4 {
+	font-family: Ranga, cursive;
+	font-size: 1.61em;
+	line-height: 0.25;
+	font-style: italic;
+}
+
+h5 {
+	text-transform: uppercase;
+	font-family: Cinzel Decorative, cursive;
+	font-size: 1.2em;
+}
+
 blockquote {
 	width: 10em;
 }
 
 img {
 	max-width: 100%;
+}
+
+.btn a:link {
+	text-decoration: none;
+	color: #000;
 }
 
 /* .main-nav */
@@ -213,6 +231,7 @@ li a:hover {
 	width: 80%;
 	margin: 0 auto;
 	overflow: auto;
+	padding-bottom: 2em;
 }
 
 .btn {
@@ -240,13 +259,6 @@ li a:hover {
 	position: absolute;
 	top: 40%;
 	left: 10%;
-}
-
-.hero h2 {
-	color: color: #a9a9a9;
-	position: absolute;
-	bottom: 2em;
-	left: 2em;
 }
 
 .feature {
@@ -277,6 +289,23 @@ li a:hover {
 
 .feature:hover h3 {
 	color: #fff;
+}
+
+.hero-alt {
+	position: relative;
+	width: 100%;
+	height: 75vh;
+	background-image: url(../img/cabin.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hero-alt h2 {
+	color: color: #a9a9a9;
+	position: absolute;
+	bottom: 2em;
+	left: 2em;
 }
 
 .page-footer {
