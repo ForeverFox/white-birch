@@ -142,7 +142,7 @@ h5 {
 }
 
 blockquote {
-	width: 10em;
+	width: 11.5em;
 }
 
 img {
@@ -221,7 +221,7 @@ li a {
 }
 
 li a:hover {
-	color: hotpink;
+	color: DarkRed;
 	text-decoration: none;
 }
 
@@ -306,6 +306,17 @@ li a:hover {
 	position: absolute;
 	bottom: 2em;
 	left: 2em;
+}
+
+form {
+	background-color: #dcdcdc;
+	border-radius: 5px;
+	padding: 1em;
+	max-width: 50%;
+}
+
+input {
+	width: 10em;
 }
 
 .page-footer {
