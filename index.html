@@ -25,21 +25,26 @@
 
         <!-- Add your site or application content here -->
 			<nav class="main-nav">
+				<i class="close-icon">&times;</i>
 				<ul>
-					<li><a href="#!">Home</a>
+					<li class="is-active"><a href="#!">Home</a>
 					</li>
-					<li class="right"><a href="#contact">Contact Us</a></li>
-					<li class="right"><a href="#!">Reservations</a></li>
-					<li class="right"><a href="#!">Rates</a></li>
-					<li class="right"><a href="#cabins">Cabins</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+					<li><a href="#!">Reservations</a></li>
+					<li><a href="#!">Rates</a></li>
+					<li><a href="#cabins">Cabins</a></li>
 				</ul>
 			</nav>
-				
-				<div class="page-content">
-				
-				<header class="page-section hero">
-					<h1>White Birch Resort</h1>
+			
+			<div class="page-content">
+			
+				<header class="page-header">
+					<i class="nav-icon fa fa-bars"></i>
 				</header>
+
+				<section class="page-section hero">
+					<h1>White Birch Resort</h1>
+				</section>
 				
 				<section class="page-section clearfix">
 					
@@ -90,16 +95,14 @@
 						
 						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10731.355683001215!2d-94.613603!3d47.74578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6520c3e34f9c294f!2sWhite+Birch+Resort!5e0!3m2!1sen!2sil!4v1479739003531" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 						
-					</article>
 				</section>
 				
-				<section class="page-section">
-					<article>
-						<h2 id="contact">Contact Us</h2>
+				<section class="page-section" id="contact">
+					<h2 >Contact Us</h2>
 						
-						<p>Take some time to explore our website and let us know which BRAND NEW home or cabin you would like us to reserve for your next MN family vacation. Or just feel free to call us and we will be happy to discuss what our resort and Minnesota attractions in the area have to offer. Thank you for viewing White Birch Resort and we hope we can start a Minnesota family vacation for you.</p>	
+					<p>Take some time to explore our website and let us know which BRAND NEW home or cabin you would like us to reserve for your next MN family vacation. Or just feel free to call us and we will be happy to discuss what our resort and Minnesota attractions in the area have to offer. Thank you for viewing White Birch Resort and we hope we can start a Minnesota family vacation for you.</p>	
 						
-						<h3>Minnesota Cabin Availability
+					<h3>Minnesota Cabin Availability
 At White Birch Resort</h3>
 
 						<form action="my-form.php" method="post">
@@ -120,24 +123,31 @@ At White Birch Resort</h3>
 						
 						<p>Evening Phone:</p><p> <input type="tel" name="phone"></p>
 						
-						<p>PLEASE tell us what is the best way to contact you:</p><p> <input type="text" name="contact"></p>
+						<p>PLEASE tell us what is the best way to contact you:</p>
+						<p> 
+						<input type="text" name="contact"></p>
 							
-							<p>We might rent a Boat/Motor
-							</p><p><select name="boat">
-							</p><p><option value="yes">Yes</option>
-							</p><p><option value="no">No</option></p>
-							</select>
+						<p>We might rent a Boat/Motor</p>
 							
-							<p>We might rent a Pontoon</p><p>
-							<select name="pontoon"></p><p><option value="yes">Yes</option></p>
-							<p><option value="no">No</option></p>
-							</select>
+						<select name="boat">
+						<option value="yes">Yes</option>
 							
-							<p>It's our first visit to Blackduck
-							</p><p><select name="visit">
-							<option value="yes">Yes</option></p><p>
-							<option value="no">No</option></p>
-							</select>
+						<option value="no">No</option>
+						</select>
+							
+						<p>We might rent a Pontoon</p>
+
+						<select name="pontoon">
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+						</select>
+							
+						<p>It's our first visit to Blackduck
+						</p>
+						<select name="visit">
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+						</select>
 
 						
 						<p>Send a brochure?</p>
@@ -163,50 +173,51 @@ At White Birch Resort</h3>
 						
 						<p>During My Stay At White Birch Resort I am Interested In These Activities:</p>
 						
-							<p><input type="checkbox" name="extras[]" value="Family Reunion">Family Reunion</input></p>
+						<p><input type="checkbox" name="extras[]" value="Family Reunion">Family Reunion</p>
 								
-							<p><input type="checkbox" name="extras[]" value="Kids Activities">Kids' Activities</input></p>
+						<p><input type="checkbox" name="extras[]" value="Kids Activities">Kids' Activities</p>
 							
-							<p><input type="checkbox" name="extras[]" value="Area Attractions">Area Attractions</input></p>
+						<p><input type="checkbox" name="extras[]" value="Area Attractions">Area Attractions</p>
 							
-							<p><input type="checkbox" name="extras[]" value="Area History">Area History</input></p>
+						<p><input type="checkbox" name="extras[]" value="Area History">Area History</p>
 							
-							<p><input type="checkbox" name="extras[]" value="Dining">Dining</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Boating">Boating</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Swimming">Swimming</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Fishing">Fishing</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Biking">Biking</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Hiking">Hiking</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Relaxation">Relaxation</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Golf">Golf</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Wedding">Wedding</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Honeymoon">Honeymoon</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Fall Escape">Fall Escape</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Hunting">Hunting</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Four Wheeling">Four Wheeling</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Snowmobiling">Snowmobiling</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="X-Country Skiing">X-Country Skiing</input></p>
-							
-							<p><input type="checkbox" name="extras[]" value="Ice Fishing">Ice Fishing</input></p>
+						<p><input type="checkbox" name="extras[]" value="Dining">Dining</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Boating">Boating</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Swimming">Swimming</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Fishing">Fishing</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Biking">Biking</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Hiking">Hiking</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Relaxation">Relaxation</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Golf">Golf</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Wedding">Wedding</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Honeymoon">Honeymoon</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Fall Escape">Fall Escape</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Hunting">Hunting</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Four Wheeling">Four Wheeling</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Snowmobiling">Snowmobiling</p>
+						
+						<p><input type="checkbox" name="extras[]" value="X-Country Skiing">X-Country Skiing</p>
+						
+						<p><input type="checkbox" name="extras[]" value="Ice Fishing">Ice Fishing</p>
 						
 						<p><strong>Do you have any additional comments or questions?</strong></p>
-							<textarea name="comments"  rows="10"  cols="40"></textarea>
+						
+						<textarea name="comments"  rows="10"  cols="40"></textarea>
 
-							<p><input type="submit" value="submit"></p>
+						<p><input type="submit" value="submit"></p>
 
 					</form>
 	
@@ -220,7 +231,6 @@ At White Birch Resort</h3>
 
 						<h4>Email: vacation@whitebirchresort.net</h4>
 						
-					</article>
 				</section>	
 			
 				<footer class="page-footer">
